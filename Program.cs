@@ -344,6 +344,32 @@ namespace AssignmentAAdvanced_1
         //    }
         //}
         #endregion
+
+
+
+
+
+
+
+
+        #region Q19
+        //// Q19: How can you inherit from a generic class?
+
+        //// 1. Inherit with a concrete type argument
+        //public class IntContainer : Container<int>
+        //{
+        //}
+
+        //// 2. Inherit with a generic type parameter (passing it through)
+        //public class CustomContainer<T> : Container<T>
+        //{
+        //}
+
+        //public class Container<T>
+        //{
+        //    public T Data { get; set; }
+        //}
+        #endregion
     }
 }
 }
