@@ -26,10 +26,44 @@ namespace AssignmentAAdvanced_1
 
 
 
+            #region Q2
+
+//            Q2: Write a generic class Container<T> with Add and Get methods.
 
 
 
+//public class Container<T>
+//        {
+//            private T[] _items;
+//            private int _count;
 
-        }
+//            public Container(int capacity = 10)
+//            {
+//                _items = new T[capacity];
+//                _count = 0;
+//            }
+
+//            public void Add(T item)
+//            {
+//                if (_count < _items.Length)
+//                {
+//                    _items[_count] = item;
+//                    _count++;
+//                }
+//            }
+
+//            public T Get(int index)
+//            {
+//                if (index >= 0 && index < _count)
+//                {
+//                    return _items[index];
+//                }
+//                throw new IndexOutOfRangeException("Index is out of range.");
+//            }
+//        }
+            #endregion
+
+
     }
+}
 }
