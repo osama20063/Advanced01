@@ -97,27 +97,42 @@ namespace AssignmentAAdvanced_1
             #region Q5
             // Q5: Write a generic method FindMax<T> that finds maximum value
 
-//public static class ArrayHelper
-//        {
-//            public static T FindMax<T>(T[] array) where T : IComparable<T>
-//            {
-//                if (array == null || array.Length == 0)
-//                {
-//                    return default;
-//                }
+            //public static class ArrayHelper
+            //        {
+            //            public static T FindMax<T>(T[] array) where T : IComparable<T>
+            //            {
+            //                if (array == null || array.Length == 0)
+            //                {
+            //                    return default;
+            //                }
 
-//                T max = array[0];
-//                for (int i = 1; i < array.Length; i++)
-//                {
-//                    if (array[i].CompareTo(max) > 0)
-//                    {
-//                        max = array[i];
-//                    }
-//                }
-//                return max;
-//            }
+            //                T max = array[0];
+            //                for (int i = 1; i < array.Length; i++)
+            //                {
+            //                    if (array[i].CompareTo(max) > 0)
+            //                    {
+            //                        max = array[i];
+            //                    }
+            //                }
+            //                return max;
+            //            }
+            //        }
+            #endregion
+
+
+            #region Q6
+            // Q6: What is a generic interface? Write IRepository<T>.
+
+//public interface IRepository<T>
+//        {
+//            void Add(T item);
+//            T GetById(int id);
+//            IEnumerable<T> GetAll();
+//            void Delete(T item);
 //        }
             #endregion
+
+
 
     }
 }
