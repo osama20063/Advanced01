@@ -325,6 +325,25 @@ namespace AssignmentAAdvanced_1
         //    void Consume(TIn data); // Contravariant (Input)
         //}
         #endregion
+
+
+
+        #region Q18
+        // Q18: How do static members work in generic types?
+
+        // Static members are unique to each closed generic type combination.
+        // MyGenericClass<int> and MyGenericClass<string> have separate copies of static fields.
+
+        //public class Counter<T>
+        //{
+        //    public static int Count;
+
+        //    public Counter()
+        //    {
+        //        Count++;
+        //    }
+        //}
+        #endregion
     }
 }
 }
