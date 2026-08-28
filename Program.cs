@@ -137,18 +137,30 @@ namespace AssignmentAAdvanced_1
             #region Q7
             // Q7: What is the 'struct' constraint? Write an example.
 
-//public class ValueContainer<T> where T : struct
+            //public class ValueContainer<T> where T : struct
+            //        {
+            //            public T Data { get; set; }
+
+            //            public ValueContainer(T value)
+            //            {
+            //                Data = value;
+            //            }
+            //        }
+            #endregion
+
+            #region Q8
+            // Q8: What is the 'class' constraint? Write an example.
+
+//public class ReferenceContainer<T> where T : class
 //        {
 //            public T Data { get; set; }
 
-//            public ValueContainer(T value)
+//            public ReferenceContainer(T value)
 //            {
 //                Data = value;
 //            }
 //        }
             #endregion
-
-
 
     }
 }
