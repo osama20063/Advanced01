@@ -283,18 +283,34 @@ namespace AssignmentAAdvanced_1
 
 
 
-        
-#region Q15
-// Q15: What is covariance? Explain the 'out' keyword.
 
-// Covariance allows you to use a more derived type than originally specified.
-// The 'out' keyword marks a generic type parameter as covariant, restricting it to return types only.
+        #region Q15
+        // Q15: What is covariance? Explain the 'out' keyword.
 
-//public interface ICovariant<out T>
-//        {
-//            T GetItem();
-//        }
-#endregion
+        // Covariance allows you to use a more derived type than originally specified.
+        // The 'out' keyword marks a generic type parameter as covariant, restricting it to return types only.
+
+        //public interface ICovariant<out T>
+        //        {
+        //            T GetItem();
+        //        }
+        #endregion
+
+
+
+
+
+        #region Q16
+        // Q16: What is contravariance? Explain the 'in' keyword.
+
+        // Contravariance allows you to use a more generic (base) type than originally specified.
+        // The 'in' keyword marks a generic type parameter as contravariant, restricting it to input parameters only.
+
+        //public interface IContravariant<in T>
+        //{
+        //    void SetItem(T item);
+        //}
+        #endregion
     }
 }
 }
