@@ -280,6 +280,21 @@ namespace AssignmentAAdvanced_1
         //    }
         //}
         #endregion
+
+
+
+        
+#region Q15
+// Q15: What is covariance? Explain the 'out' keyword.
+
+// Covariance allows you to use a more derived type than originally specified.
+// The 'out' keyword marks a generic type parameter as covariant, restricting it to return types only.
+
+//public interface ICovariant<out T>
+//        {
+//            T GetItem();
+//        }
+#endregion
     }
 }
 }
