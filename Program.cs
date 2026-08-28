@@ -311,6 +311,20 @@ namespace AssignmentAAdvanced_1
         //    void SetItem(T item);
         //}
         #endregion
+
+
+        #region Q17
+        // Q17: What is the difference between covariance and contravariance?
+
+        // Covariance ('out'): Allows returning a derived type; used for output parameters (Read-only).
+        // Contravariance ('in'): Allows passing a base type; used for input parameters (Write-only).
+
+        //public interface IExample<out TOut, in TIn>
+        //{
+        //    TOut Produce();       // Covariant (Output)
+        //    void Consume(TIn data); // Contravariant (Input)
+        //}
+        #endregion
     }
 }
 }
