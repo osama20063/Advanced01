@@ -65,20 +65,34 @@ namespace AssignmentAAdvanced_1
 
 
             #region Q3
-//public class Pair<TKey, TValue>
-//        {
-//            public TKey Key { get; set; }
-//            public TValue Value { get; set; }
+            //public class Pair<TKey, TValue>
+            //        {
+            //            public TKey Key { get; set; }
+            //            public TValue Value { get; set; }
 
-//            public Pair(TKey key, TValue value)
-//            {
-//                Key = key;
-//                Value = value;
-//            }
-        //}
+            //            public Pair(TKey key, TValue value)
+            //            {
+            //                Key = key;
+            //                Value = value;
+            //            }
+            //}
             #endregion
 
 
-    }
+            #region Q4
+            // Q4: What is a generic method? Write Swap<T> method.
+
+            //public static class Helper
+            //        {
+            //            public static void Swap<T>(ref T a, ref T b)
+            //            {
+            //                T temp = a;
+            //                a = b;
+            //                b = temp;
+            //            }
+            //        }
+            #endregion
+
+        }
 }
 }
