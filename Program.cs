@@ -151,17 +151,33 @@ namespace AssignmentAAdvanced_1
             #region Q8
             // Q8: What is the 'class' constraint? Write an example.
 
-//public class ReferenceContainer<T> where T : class
-//        {
-//            public T Data { get; set; }
+            //public class ReferenceContainer<T> where T : class
+            //        {
+            //            public T Data { get; set; }
 
-//            public ReferenceContainer(T value)
+            //            public ReferenceContainer(T value)
+            //            {
+            //                Data = value;
+            //            }
+            //        }
+            #endregion
+
+
+
+
+
+
+            #region Q9
+            // Q9: What is the 'new()' constraint? Write an example.
+
+//public class Creator<T> where T : new()
+//        {
+//            public T CreateInstance()
 //            {
-//                Data = value;
+//                return new T();
 //            }
 //        }
             #endregion
-
     }
 }
 }
