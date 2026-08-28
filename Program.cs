@@ -195,6 +195,28 @@ namespace AssignmentAAdvanced_1
 //            }
         }
             #endregion
+
+
+
+
+
+
+        #region Q11
+        // Q11: What is the base class constraint? Write an example.
+
+        //public class BaseEntity
+        //{
+        //    public int Id { get; set; }
+        //}
+
+        //public class BaseRepository<T> where T : BaseEntity
+        //{
+        //    public void PrintId(T item)
+        //    {
+        //        System.Console.WriteLine(item.Id);
+        //    }
+        //}
+        #endregion
     }
 }
 }
