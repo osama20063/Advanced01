@@ -123,12 +123,28 @@ namespace AssignmentAAdvanced_1
             #region Q6
             // Q6: What is a generic interface? Write IRepository<T>.
 
-//public interface IRepository<T>
+            //public interface IRepository<T>
+            //        {
+            //            void Add(T item);
+            //            T GetById(int id);
+            //            IEnumerable<T> GetAll();
+            //            void Delete(T item);
+            //        }
+            #endregion
+
+
+
+            #region Q7
+            // Q7: What is the 'struct' constraint? Write an example.
+
+//public class ValueContainer<T> where T : struct
 //        {
-//            void Add(T item);
-//            T GetById(int id);
-//            IEnumerable<T> GetAll();
-//            void Delete(T item);
+//            public T Data { get; set; }
+
+//            public ValueContainer(T value)
+//            {
+//                Data = value;
+//            }
 //        }
             #endregion
 
