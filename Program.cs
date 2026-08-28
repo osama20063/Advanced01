@@ -170,13 +170,30 @@ namespace AssignmentAAdvanced_1
             #region Q9
             // Q9: What is the 'new()' constraint? Write an example.
 
-//public class Creator<T> where T : new()
+            //public class Creator<T> where T : new()
+            //        {
+            //            public T CreateInstance()
+            //            {
+            //                return new T();
+            //            }
+            //        }
+            #endregion
+
+
+
+
+
+
+            #region Q10
+            // Q10: What is the interface constraint? Write an example.
+
+//public class DataHandler<T> where T : IComparable<T>
 //        {
-//            public T CreateInstance()
+//            public bool IsGreater(T item1, T item2)
 //            {
-//                return new T();
+//                return item1.CompareTo(item2) > 0;
 //            }
-//        }
+        }
             #endregion
     }
 }
