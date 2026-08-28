@@ -217,6 +217,27 @@ namespace AssignmentAAdvanced_1
         //    }
         //}
         #endregion
+
+
+
+
+        #region Q12
+        // Q12: How do you apply multiple constraints? Write an example.
+
+        //public class BaseEntity
+        //{
+        //    public int Id { get; set; }
+        //}
+
+        //public class Manager<T> where T : BaseEntity, IComparable<T>, new()
+        //{
+        //    public T CreateAndCompare(T existing)
+        //    {
+        //        T newItem = new T();
+        //        return newItem.CompareTo(existing) > 0 ? newItem : existing;
+        //    }
+        //}
+        #endregion
     }
 }
 }
