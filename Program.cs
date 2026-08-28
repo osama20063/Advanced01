@@ -238,6 +238,22 @@ namespace AssignmentAAdvanced_1
         //    }
         //}
         #endregion
+
+
+
+
+        #region Q13
+        // Q13: What does the 'default' keyword do in generics?
+
+        //public class DefaultExample<T>
+        //{
+        //    public T GetDefaultValue()
+        //    {
+               
+        //        return default(T);
+        //    }
+        //}
+        #endregion
     }
 }
 }
